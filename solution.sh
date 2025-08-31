@@ -10,7 +10,7 @@
   cat readme.txt
 
 # 4. Count the number of lines in "data.csv"
-  wsl -l data.csv
+  wc -l data.csv
 
 # 5. Find all files containing the word "error" in the "logs" folder
   grep -rl error logs/
